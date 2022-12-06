@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    background-image: url("court.jpg");
+    background-size: cover;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: #1B244A;
+    max-width: 40%;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+}
+#scoreHome-el{
+    margin-top: 30px;
+    padding: 5px;
+}
+#scoreGuest-el{
+    margin-top: 30px;
+    padding: 5px;
+}
+.title {
+    font-family: 'Verdana';
+    font-style: normal;
+    line-height: 36px;
+    text-align: center;
+    color: #EEEEEE;
+}
+.buttons > button{
+    height: 30px;    
+    background-color: transparent;
+    font-size: 15px;
+    border: 2px solid #9AABD8;
+    color: #9AABD8;
+    border-radius: 5px;
+    font-family: 'Cursed Timer ULiL';
+}
+.mainscore {
+    margin-top: 5px;
+    margin-left: 2px;
+    margin-bottom: 30px;
+    justify-content: center;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    border-radius: 10px;
+    font-family: 'Cursed Timer ULiL';
+    font-size: 70px;
+    color: #F94F6D;
+}
+.saveScore{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px auto ;
+    padding: 10px;
+    max-width: 40%;
+    border-radius: 10px;
+    align-items: center;
+    background-color:transparent;
+    color: #F94F6D;
+    
+}
+#saveScore-el{
+    margin-top: 10px;
+    width: 150px;
+    padding: 10px 7px;
+    border-radius: 3px;      
+    font-size: 13px;
+    font-weight: bold;
+    color: white;
+    font-family: 'Lucida Sans';
+    background-color: #1B244A;
+    border: none;
+}
+#homeCount , #guestCount{
+    margin: 5px;
+    padding: 5px;
+    background-color: #1B244A;
+    border: 0.5px solid white;
+    border-radius: 2px;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="homeScore">
+            <div class="title">
+                <h2>HOME</h2>
+            </div>
+            <div class="mainscore">
+                <h3 id="scoreHome-el">0</h3>
+            </div>
+            <div class="buttons">
+                <button id="freeThrowH-el" onclick="freeThrowH()">+1</button>
+                <button id="fieldGoalsH-el" onclick="fieldGoalsH()">+2</button>
+                <button id="threePointerH-el" onclick="threePointerH()">+3</button>
+            </div>
+        </div>
+        <div class="guestScore">
+            <div class="title">
+                <h2>GUEST</h2>
+            </div>
+            <div class="mainscore">
+                <h3 id="scoreGuest-el">0</h3>
+            </div>
+            <div class="buttons">
+                <button id="freeThrowG-el" onclick="freeThrowG()">+1</button>
+                <button id="fieldGoalsG-el" onclick="fieldGoalsG()">+2</button>
+                <button id="threePointerG-el" onclick="threePointerG()">+3</button>
+            </div>
+        </div>
+    </div>
+    <div class="saveScore">
+        <button id="saveScore-el" onclick="saveScore()">SAVE</button>
+        <p id="homeCount">Home Count: </p>
+        <p id="guestCount">Guest Count: </p>
+    </div>
+
+    <script src="index.js"></script>
+</body
